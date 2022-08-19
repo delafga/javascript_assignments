@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<h2>JS-Object</h2>
+
+	<script>
+		const user = {}; //Null object
+user.name = "John"; //Name attribute 
+user.surname = "Mike"; //Surname attribute 
+
+document.write("Full user name is " + user.name + " " + user.surname + ". ")
+
+user.name = "Peter"; //Name attribute is updated
+
+document.write("Full user name is now " + user.name + " " + user.surname + ". ")
+
+delete user.name; //Name attribute is deleted
+
+document.write("Full user name is now " + user.name + " " + user.surname + ". ")
+
+var fruit = {
+  apple: 20,
+  pear: 20,
+  peach: 10
+  };
+  // write your code here...
+document.write("Total number of fruits is: " + (fruit.apple + fruit.pear + fruit.peach) + ". ");
+	</script>
+	
+	</body>
+</html>
